@@ -40,6 +40,10 @@ A $150-200 mini PC transfers data **as fast as** a $1000 workstation.
 
 ### Linux is the Right Choice
 
+Which Linux Distribution?
+
+**Ubuntu 24.04 LTS** is the safest choice for medical imaging research. Its 5-year support cycle ensures stability during long-term projects, and virtually all imaging tools (3D Slicer, ITK-SNAP, dcm2niix, FSL, AFNI) work out of the box. The massive community means every problem has already been solved on Stack Overflow or Ask Ubuntu. For neuroimaging-heavy workflows, add the NeuroDebian repository to access pre-packaged analysis tools. Alternatives like Fedora Scientific offer newer packages but shorter support cycles (~13 months), which can disrupt multi-year studies. Avoid rolling-release distros (Arch, Manjaro) for production research systems—unexpected breakage during a deadline is not worth the newer software.
+
 **rsync is essential for medical data:**
 
 ```bash
